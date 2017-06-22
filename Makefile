@@ -11,9 +11,3 @@ sort: bin src/sort/*
 
 rand: bin src/rand/*
 	cland -O3 src/rand/*.c -o bin/rand -Wall
-
-run_sort: sort
-	./bin/sort
-
-run_rand: rand
-	./bin/rand
