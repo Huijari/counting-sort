@@ -11,6 +11,8 @@ input_t* input_readfile(char* path) {
   input_t* input = malloc(sizeof(input_t));
 
   FILE* file = fopen(path, "r");
+  assert(file != NULL);
+
   fscanf(file, "%i", &input->length);
 
   input->values = calloc(sizeof(uint32_t), input->length);
