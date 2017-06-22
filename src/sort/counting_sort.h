@@ -6,14 +6,15 @@
 #include <stdint.h>
 
 #include "input.h"
+#include "output.h"
 
 /**
  * Sort an array using the Counting Sort algorithm
  *
  * @param input Struct representing the data to be sorted
  *
- * @return New array with the items sorted
+ * @return Output struct with the sorted items
  */
-uint32_t* counting_sort(input_t* input);
+output_t* counting_sort(input_t* input);
 
 #endif
