@@ -7,9 +7,9 @@
 
 typedef struct input_t input_t;
 struct input_t {
-  uint_t* values;
-  uint_t length;
-  uint_t range;
+  uint32_t* values;
+  uint32_t length;
+  uint32_t range;
 };
 
 /**
