@@ -7,8 +7,13 @@
 
 typedef struct input_t input_t;
 struct input_t {
+  // Array of numbers to be sorted
   uint32_t* values;
+
+  // Length of the input
   uint32_t length;
+
+  // Range of the numbers of the input
   uint32_t range;
 };
 
