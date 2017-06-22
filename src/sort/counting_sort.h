@@ -14,6 +14,6 @@
  *
  * @return New array with the items sorted
  */
-uint32_t* counting_sort(input_t input);
+uint32_t* counting_sort(input_t* input);
 
 #endif
