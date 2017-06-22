@@ -24,6 +24,7 @@ input_t* input_readfile(char* path) {
     if (input->values[i] > input->range)
       input->range = input->values[i];
   }
+  input->range++;
 
   return input;
 }
