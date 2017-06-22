@@ -10,4 +10,4 @@ sort: bin src/sort/*
 	clang -O3 src/sort/*.c -o bin/sort -Wall
 
 rand: bin src/rand/*
-	cland -O3 src/rand/*.c -o bin/rand -Wall
+	clang -O3 src/rand/*.c -o bin/rand -Wall
