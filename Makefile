@@ -11,3 +11,6 @@ sort: bin src/sort/*
 
 rand: bin src/rand/*
 	clang -O3 src/rand/*.c -o bin/rand -Wall
+
+bench: all
+	./bench.sh
